@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
     padding: 0;
@@ -8,6 +9,10 @@ body {
 header {
     text-align: center;
     background-color: black;;
+}
+
+.heading {
+    padding: 0px;
 }
 
 .title {
@@ -25,26 +30,41 @@ header {
 }
 
 img {
+    max-width: 100%;
     height: auto;
-    width: 100%;
-    max-width: 500px;
     border: 5px solid red;
-    margin-left: 10px;
-    display: inline-block;
-}
-
-blockquote {
-    margin: 0;
 }
 
 .quote {
-    display: inline-block;
+    max-width: 100%;
+    height: auto;
 }
 
-@media screen and (max-width: 768px) {
-    img {
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
+.blockquote-quoted::before {
+    content: "\201c";
+    font-size: 50px;
+    color: red;
+    display: block;
+    margin-bottom: -20px;
+    margin-top: -15px;
+}
+
+.blockquote-text {
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.blockquote-credit {
+    text-align: right;
+    font-size: 70px;
+    font-style: normal;
+    font-family: "Goldman", sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+    .blockquote-quoted::before {
+        margin-top: 10px;
     }
 }
+
