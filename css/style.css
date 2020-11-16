@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black;;
+}
+
+.title {
+    margin: 0;
+    font-size: 60px;
+    font-family: "Goldman", sans-serif;
+    color: red;
+}
+
+.sub-heading {
+    color: white;
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid red;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 576px) {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
