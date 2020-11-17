@@ -24,12 +24,12 @@ header {
 .profile-picture {
     max-width: 100%;
     height: auto;
-    border: 5px solid red;
+    border: 5px solid #ef0101;
     border-radius: 5px;
 }
 
 .quote-marks {
-    color: red;
+    color: #ef0101;
     font-size: 40px;
 }
 
