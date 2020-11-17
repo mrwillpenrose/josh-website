@@ -12,6 +12,11 @@ header {
     margin-bottom: 10px;
 }
 
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .banner {
     padding: 0;
 }
@@ -21,6 +26,15 @@ header {
     height: auto;
     border: 5px solid red;
     border-radius: 5px;
+}
+
+.quote-marks {
+    color: red;
+    font-size: 40px;
+}
+
+.quote-marks-right {
+    text-align: right;
 }
 
 .blockquote-text {
