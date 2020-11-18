@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200&display=swap');
 
 body {
     padding: 0;
@@ -9,7 +10,6 @@ body {
 header {
     text-align: center;
     background-color: black;
-    margin-bottom: 10px;
 }
 
 .logo {
@@ -22,31 +22,82 @@ header {
 }
 
 .profile-picture {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border: 5px solid #ef0101;
     border-radius: 5px;
 }
 
+.photo {
+    padding: 5px 5px 0px 5px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
 .quote-marks {
     color: #ef0101;
     font-size: 40px;
+    margin-bottom: 0px;
 }
 
 .quote-marks-right {
     text-align: right;
+    margin-bottom: 0px;
 }
 
 .blockquote-text {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .blockquote-text {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .blockquote-credit {
+        font-size: 45px;
+    }
 }
 
 .blockquote-credit {
     text-align: right;
-    font-size: 35px;
+    font-size: 40px;
     font-style: normal;
     font-family: "Goldman", sans-serif;
 }
 
+.section {
+    text-align: center;
+    padding: 0;
+    
+}
+
+.nav-link {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ef0101;
+    border: 5px solid white;
+    color: white;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-link {
+        font-size: 32px;
+    }
+}
