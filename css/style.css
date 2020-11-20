@@ -88,7 +88,7 @@ header {
     border-radius: 10px;
     color: white;
     font-family: "Saira Extra Condensed", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -115,4 +115,32 @@ header {
     .section-heading {
         text-align: left;
     }
+}
+
+.price-cards {
+    text-align: center;
+    
+}
+
+.price-cards > ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.offering {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px;
+    font-family: "Goldman", sans-serif;
+}
+
+.price-cards {
+    box-shadow: 5px 5px rgb(239, 1, 1);
+}
+
+#standard > li{
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
 }
