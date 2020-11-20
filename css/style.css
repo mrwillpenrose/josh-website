@@ -85,6 +85,7 @@ header {
     padding-bottom: 20px;
     background-color: #ef0101;
     border: 5px solid white;
+    border-radius: 10px;
     color: white;
     font-family: "Saira Extra Condensed", sans-serif;
     font-size: 15px;
@@ -99,5 +100,19 @@ header {
 @media only screen and (min-width: 768px) {
     .nav-link {
         font-size: 32px;
+    }
+}
+
+.section-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    padding-top: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline #ef0101;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-heading {
+        text-align: left;
     }
 }
