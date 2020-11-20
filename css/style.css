@@ -75,7 +75,7 @@ header {
 
 .section {
     text-align: center;
-    padding: 0;
+    padding: 0px;
     
 }
 
@@ -103,6 +103,10 @@ header {
     }
 }
 
+.homepage-section {
+    padding-left: 5px;
+}
+
 .section-heading {
     font-family: "Saira Extra Condensed", sans-serif;
     padding-top: 5px;
@@ -117,14 +121,22 @@ header {
     }
 }
 
+#standard {
+    padding: 0;
+}
+
+#premium {
+    padding: 0;
+}
+
 .price-cards {
     text-align: center;
+    border: 2px solid #ef0101;
     
 }
 
 .price-cards > ul {
     list-style-type: none;
-    padding: 0;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
 }
@@ -136,11 +148,4 @@ header {
     font-family: "Goldman", sans-serif;
 }
 
-.price-cards {
-    box-shadow: 5px 5px rgb(239, 1, 1);
-}
 
-#standard > li{
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
-}
