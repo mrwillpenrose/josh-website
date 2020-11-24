@@ -76,19 +76,18 @@ header {
 .section {
     text-align: center;
     padding: 0px;
-    
+
 }
 
 .nav-link {
+    padding: 0;
     margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-color: #ef0101;
     border: 5px solid white;
     border-radius: 10px;
     color: white;
     font-family: "Saira Extra Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -122,56 +121,32 @@ header {
     }
 }
 
-
-
-.std-offering {
-    list-style-type: none;
-    padding: 0px;
-    font-size: 25px;
-}
-
-.prem-offering {
-    list-style-type: none;
-    padding: 0px;
-    font-size: 25px;
-}
-
-#standard {
+.price-card {
     border: 5px solid #ef0101;
     border-radius: 10px;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-}
-#premium {
-    border: 5px solid #ef0101;
-    border-radius: 10px;
+    padding: 10px;
     margin-top: 5px;
-    padding: 0;
+    margin-bottom: 5px;
+}
+
+.tier {
+    font-family: "Goldman", sans-serif;
+    font-size: 30px;
     text-align: center;
+}
+
+.offering {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
 }
 
-#standard > .price {
+.price {
+    text-align: center;
+    color: #ef0101;
+    font-size: 40px;
     font-family: "Goldman", sans-serif;
-    font-size: 30px;
-}
-
-#premium > .price {
-    font-family: "Goldman", sans-serif;
-    font-size: 30px;
-}
-
-
-@media only screen and (min-width: 768px) {
-    #standard {
-        margin-bottom: 0;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #premium {
-        margin-top: 0;
-    }
+    text-decoration: underline;
 }
